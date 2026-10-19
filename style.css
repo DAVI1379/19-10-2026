@@ -1,0 +1,138 @@
+.botao{
+    background-color: blue;
+    color: white;
+}
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+
+.botao-cor {
+    background-color: blue;    
+    color: white;             
+    padding: 12px 24px;
+    border: none;             
+    border-radius: 6px;
+    cursor: pointer;          
+    font-size: 16px;
+}
+
+.botao-cor:hover {
+    background-color: green;  
+}
+
+.botao-borda {
+    background-color: white;
+    color: black;
+    padding: 12px 24px;
+    border: 2px solid black;  
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.botao-borda:active {
+    border-width: 5px;        
+}
+
+
+.link-interativo {
+    color: blue;
+    text-decoration: none;    
+    font-size: 18px;
+    display: inline-block;
+    margin: 10px 0;
+
+}
+.link:visited{
+    color: aqua;
+}
+.link-interativo:hover {
+    color: red;              
+    text-decoration: underline;
+
+}
+.cartao {
+    width: 280px;
+    padding: 20px;
+    background-color: white;     
+    border: 2px solid #cccccc;    
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.cartao:hover {
+    background-color: #eaf2ff;    
+    border-color: blue;           
+}   
+.input{
+    margin: right 20px;
+    padding: 10px;
+    outline: none;
+}
+.input:focus{
+    border:2px solid blue;
+    background-color: bisque;
+}
+form{
+    width: 300px;
+}
+label{
+    display: block;
+    margin-top: 12px;
+}
+input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #999999;
+    border-radius: 5px;
+}
+input:focus{
+    border-color: blue;
+    outline: 2px solid #bfdbfe;
+}
+button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: blue;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+button:hover{
+    background-color: darkblue;
+}
+button:active{
+    background-color: black;
+}
+
+
+
+.botao-salvar {
+    background-color: #3b82f6;
+    color: white;
+}
+.botao-salvar:hover {
+    background-color: green;
+}
+
+
+.botao-cancelar {
+    background-color: #6b7280;
+    color: white;
+}
+.botao-cancelar:hover {
+    background-color: red;
+}
+
+
+.botao-enviar {
+    background-color: #3b82f6;
+    color: white;
+}
+.botao-enviar:active {
+    background-color: #0f172a; 
+}
